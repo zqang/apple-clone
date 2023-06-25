@@ -46,10 +46,10 @@ const Navbar = () => {
   return (
     <div
       onMouseLeave={setClose}
-      className={`h-auto fixed w-full z-10 saturate-[180%] ${
+      className={`h-auto fixed w-full z-[9999] ${
         isOpen
           ? "bg-neutral-900"
-          : "bg-[rgba(22,22,23,.8)] transition-all duration-500 ease-in-out"
+          : "bg-[#444446] transition-all duration-500 ease-in-out"
       }`}
     >
       <Container>

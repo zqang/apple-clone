@@ -1,3 +1,4 @@
+import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/navbar/Navbar";
 import { Nunito } from "next/font/google";
 import "./globals.css";
@@ -16,9 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={inter.className + `block min-w-[320px] m-0 p-0`}>
         <Navbar />
         <div className="pt-14">{children}</div>
+        <Footer />
       </body>
     </html>
   );
