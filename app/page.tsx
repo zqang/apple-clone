@@ -1,4 +1,5 @@
 import Card from "@/components/Card";
+import Footer from "@/components/footer/Footer";
 
 export default function Home() {
   return (
@@ -74,6 +75,8 @@ export default function Home() {
           secondarySection={true}
         ></Card>
       </section>
+
+      <Footer />
     </main>
   );
 }

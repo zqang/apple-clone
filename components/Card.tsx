@@ -28,10 +28,10 @@ const Card: React.FC<CardProps> = ({
 }) => {
   return (
     <div
-      className={` max-h-[775px] w-full mb-[-56px]  text-lg font-normal ${textColor}`}
+      className={` max-h-[775px] w-full mb-[-44px]  text-lg font-normal ${textColor}`}
     >
-      <div className="h-[580px] relative overflow-hidden flex flex-col pt-[44px] ">
-        <div className="mt-0 pt-[47px] text-center flex flex-grow-0 flex-col z-[4]">
+      <div className="h-[624px] relative overflow-hidden flex flex-col pt-[44px] ">
+        <div className="mt-0 pt-[12px] text-center flex flex-grow-0 flex-col z-[4]">
           {secondarySection && (
             <div className=" w-[88%] max-w-[430px] mx-auto">
               <h4 className="text-[40px] z-[4] font-semibold leading-none mt-[53px] ">
@@ -71,7 +71,7 @@ const Card: React.FC<CardProps> = ({
             </a>
           </div>
         </div>
-        <div className="z-1 overflow-visible flex-grow w-full h-full absolute top-0 left-0">
+        <div className="h-[580px] z-1 overflow-visible flex-grow w-full absolute top-0 left-0">
           <Image
             alt={imageAlt}
             src={imageSrc}
